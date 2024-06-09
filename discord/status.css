@@ -2,11 +2,13 @@
 #app-mount.wrapper__3ed10 {
   border-radius: var(--rs-avatar-shape);
 }
+
 #app-mount 
 .wrapper__3ed10 svg:not(:root) {
   overflow: visible;
   contain: none;
 }
+
 #app-mount 
 .wrapper__3ed10 foreignObject {
   -webkit-mask: none;
