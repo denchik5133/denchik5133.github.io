@@ -1,4 +1,23 @@
 
+:root {
+    --st-small-spacing: 2px; /* Gap between avatar and status for members list - Default value : 2px */
+  	--st-medium-spacing: 3px; /* Gap between avatar and status for User popout - Default value : 3px */
+  	--st-large-spacing: 4px; /* Gap between avatar and status for User profiles - Default value : 4px */
+  	--st-small-width: 2px; /* Thickness of status border for members list - Default value : 2px */
+  	--st-medium-width: 3px; /* Thickness of status border for User popout - Default value : 3px */
+  	--st-large-width: 4px; /* Thickness of status border for User profile - Default value : 4px */
+  	--st-avatar-shape: 50%; /* 50% for round - 0% for square */
+  
+  	--st-online-color: #43b581; /* Colour for online status */
+  	--st-idle-color: #faa61a; /* Colour for idle status */
+  	--st-dnd-color: #f04747; /* Colour for dnd status */
+  	--st-offline-color: #636b75; /* Colour for offline status */
+  	--st-streaming-color: #643da7; /* Colour for streaming status */
+  	--st-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+  	--st-phone-color: var(--st-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+  	--st-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
+}
+
 #app-mount.wrapper__3ed10 {
   border-radius: var(--st-avatar-shape);
 }
