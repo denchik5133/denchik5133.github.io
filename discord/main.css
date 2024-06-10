@@ -695,7 +695,7 @@ wrapper__2d9b1:not([style])::after {
 }
 :root .unread__48cf4 {
   top: 50%;
-  left: 5px;
+  left: 1px;
   width: 6px;
   height: 6px;
   z-index: 1;
