@@ -370,10 +370,3 @@
   margin-top: 1px;
   margin-left: 1px;
 }
-
-#app-mount 
-.info__755e1 
-.line_cdcacc:last-child:after {
-  content: "RadialStatus " var(--st-version);
-  display: block;
-}
