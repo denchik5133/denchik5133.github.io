@@ -1,0 +1,83 @@
+/**
+* @name (DDI) Blue theme
+* @author denchik
+* @authorId 701991548925116436
+* @description Being in a comfortable environment is one of the important processes of relaxation.
+* @invite CND6B5sH3j
+* @version 1.0.0
+* @website https://docs.ddl.com/
+* @source https://github.com/denchik5133/
+* @updateUrl https://denchik5133.github.io/discord/main.css
+*/
+
+/* @import url(https://denchik5133.github.io/discord/main.css); */
+@import url(https://denchik5133.github.io/discord/status.css);
+
+:root {
+	--disable-animations: 2s channel-unread infinite; /* Animations - If you don't want a high CPU usage, comment the line below */
+	--user-buttons-spacing: 8px; /* Spacing - Default 8px */
+	--user-buttons-color: rgb(9, 109, 192); /* Color - Default #096DC0 */
+	
+	--avatar-radius: 20px; /* Avatars - Default : 20px */
+	--status-radius: 3px; /* Status - Default : 3px */
+	--server-radius: 8px; /* Servers - Default : 8px */
+	
+	--colored-emoji: grayscale(0%); /* Change the value to "100%" if you want the default one*/
+	--mention-color: rgb(240, 71, 71); /* Mention - Default rgb(240, 71, 71) */
+	--unread-color: rgb(0, 151, 230); /* Unread - Default rgb(114, 137, 218) */
+	--mention-color-bar: rgb(198, 98, 98); /* Bar on the right - Default rgb(198, 98, 98) */
+	--mention-color-background: rgba(198, 98, 98, 0.122); /* Background - Default rgba(198, 98, 98, 0.122) */
+	--mention-color-hover: rgba(198, 98, 98, 0.149); /* On hover - Default rgba(198, 98, 98, 0.149) */
+	--chat-buttons: rgb(114, 137, 218); /* Default rgb(114, 137, 218) */
+	--spotify-color: rgb(30, 220, 98); /* Default rgb(30, 220, 98) */
+	
+	--streaming: rgb(89, 54, 149); /* Streaming - Default rgb(89, 54, 149) */
+	--playing: rgb(114, 137, 218); /* Playing wave color - Default rgb(114, 137, 218) */
+	--listening: rgb(29, 182, 83); /* Listening wave color - Default rgb(29, 182, 83) */
+	--role-circle: 5px; /* Role circle - Default 5px */
+	--discord-logo: none; /* Set it to "block" if you still want it - Default none */
+}
+
+.theme-dark {
+	--background-primary: rgb(19, 28, 44); /* Default rgb(19, 28, 44) */
+	--background-secondary: rgb(24, 37, 51); /* Default rgb(24, 37, 51) */
+	--background-secondary-alt: rgb(36, 47, 61); /* Default rgb(36, 47, 61) */
+	--background-tertiary: rgb(16, 19, 32); /* Default rgb(16, 19, 32) */
+	
+	--background-mobile-primary: rgb(35, 40, 61); /* Default rgb(35, 40, 61) */
+	--background-mobile-secondary: rgb(30, 34, 51); /* Default rgb(30, 34, 51) */
+
+	--channeltextarea-background: rgb(37, 45, 70); /* Default rgb(37, 45, 70) */
+	
+	--background-accent: rgb(114, 137, 218); /* Default rgb(114, 137, 218) */
+	--background-message-hover: rgba(45, 55, 78, 0.541); /* transparent rgba(45, 55, 78, 0.541) */
+	--background-modifier-hover: rgba(45, 55, 78, 0.541); /* Default rgba(45, 55, 78, 0.541) */
+	--background-modifier-active: rgba(45, 55, 78, 0.541); /* Default rgba(45, 55, 78, 0.541) */
+	--background-modifier-selected: rgba(45, 55, 78, 0.541); /* Default rgba(45, 55, 78, 0.541)*/
+	--deprecated-card-bg: rgba(18, 20, 31, 0.388); /* Default rgba(18, 20, 31, 0.388) */
+	--background-floating: rgb(16, 19, 32); /* Default rgb(16, 19, 32) */
+	--deprecated-quickswitcher-input-background: rgb(16, 19, 32); /* Default rgb(16, 19, 32) */
+	--elevation-low: none; /* Default none */
+
+	--scrollbar-auto-thumb: rgb(18, 23, 34); /* Default rgb(18, 23, 34) */
+	--scrollbar-auto-track: rgb(19, 28, 44); /* Default rgb(19, 28, 44) */
+	--scrollbar-thin-thumb: rgb(20, 25, 37); /* Default rgb(20, 25, 37) */
+	
+	--activity-card-background: rgb(16, 19, 32); /* Default rgb(16, 19, 32) */
+	--input-background: rgb(30, 34, 51); /* Default rgb(30, 34, 51) */
+
+	--background-modifier-accent: rgba(0, 150, 230, 0.349); /* Default rgba(0, 150, 230, 0.349) */
+}
+
+.theme-light {
+	--background-primary: rgb(35, 40, 61); /* Default rgb(35, 40, 61) */
+	--background-secondary: rgb(30, 34, 51); /* Default rgb(30, 34, 51) */
+	--background-secondary-alt: rgb(25, 31, 46); /* Default rgb(25, 31, 46) */
+	--background-tertiary: rgb(16, 19, 32); /* Default rgb(16, 19, 32) */
+	--background-accent: rgb(114, 137, 218); /* Default rgb(114, 137, 218) */
+	--background-modifier-hover: rgb(38, 43, 65); /* Default rgb(38, 43, 65) */
+	--background-modifier-active: rgb(38, 43, 65); /* Default rgb(38, 43, 65) */
+	--header-primary: rgb(255, 255, 255); /* Default rgb(255, 255, 255) */
+	--header-secondary: rgb(177, 181, 185); /* Default rgb(177, 181, 185) */
+	--text-normal: rgb(142, 146, 151); /* Default rgb(142, 146, 151) */
+}
